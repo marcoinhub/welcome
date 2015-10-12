@@ -10,11 +10,13 @@
 		EFC030C21B79D7B4006ECF9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC030C11B79D7B4006ECF9F /* main.m */; };
 		EFC030C51B79D7B4006ECF9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC030C41B79D7B4006ECF9F /* AppDelegate.m */; };
 		EFC030C81B79D7B4006ECF9F /* welcome.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFC030C61B79D7B4006ECF9F /* welcome.xcdatamodeld */; };
-		EFC030CB1B79D7B4006ECF9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC030CA1B79D7B4006ECF9F /* ViewController.m */; };
-		EFC030CE1B79D7B4006ECF9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC030CC1B79D7B4006ECF9F /* Main.storyboard */; };
 		EFC030D01B79D7B4006ECF9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC030CF1B79D7B4006ECF9F /* Images.xcassets */; };
-		EFC030D31B79D7B4006ECF9F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFC030D11B79D7B4006ECF9F /* LaunchScreen.xib */; };
 		EFC030DF1B79D7B4006ECF9F /* welcomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC030DE1B79D7B4006ECF9F /* welcomeTests.m */; };
+		EFC030EA1B79D822006ECF9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC030E91B79D822006ECF9F /* ViewController.m */; };
+		EFC030EF1B79D938006ECF9F /* welcome2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = EFC030EB1B79D938006ECF9F /* welcome2.PNG */; };
+		EFC030F01B79D938006ECF9F /* welcome1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = EFC030EC1B79D938006ECF9F /* welcome1.PNG */; };
+		EFC030F11B79D938006ECF9F /* welcome4.PNG in Resources */ = {isa = PBXBuildFile; fileRef = EFC030ED1B79D938006ECF9F /* welcome4.PNG */; };
+		EFC030F21B79D938006ECF9F /* welcome3.PNG in Resources */ = {isa = PBXBuildFile; fileRef = EFC030EE1B79D938006ECF9F /* welcome3.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +36,16 @@
 		EFC030C31B79D7B4006ECF9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFC030C41B79D7B4006ECF9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EFC030C71B79D7B4006ECF9F /* welcome.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = welcome.xcdatamodel; sourceTree = "<group>"; };
-		EFC030C91B79D7B4006ECF9F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EFC030CA1B79D7B4006ECF9F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EFC030CD1B79D7B4006ECF9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFC030CF1B79D7B4006ECF9F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		EFC030D21B79D7B4006ECF9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EFC030D81B79D7B4006ECF9F /* welcomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = welcomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC030DD1B79D7B4006ECF9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFC030DE1B79D7B4006ECF9F /* welcomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = welcomeTests.m; sourceTree = "<group>"; };
+		EFC030E81B79D822006ECF9F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFC030E91B79D822006ECF9F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFC030EB1B79D938006ECF9F /* welcome2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome2.PNG; sourceTree = "<group>"; };
+		EFC030EC1B79D938006ECF9F /* welcome1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome1.PNG; sourceTree = "<group>"; };
+		EFC030ED1B79D938006ECF9F /* welcome4.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome4.PNG; sourceTree = "<group>"; };
+		EFC030EE1B79D938006ECF9F /* welcome3.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome3.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,11 +89,13 @@
 			children = (
 				EFC030C31B79D7B4006ECF9F /* AppDelegate.h */,
 				EFC030C41B79D7B4006ECF9F /* AppDelegate.m */,
-				EFC030C91B79D7B4006ECF9F /* ViewController.h */,
-				EFC030CA1B79D7B4006ECF9F /* ViewController.m */,
-				EFC030CC1B79D7B4006ECF9F /* Main.storyboard */,
+				EFC030E81B79D822006ECF9F /* ViewController.h */,
+				EFC030E91B79D822006ECF9F /* ViewController.m */,
+				EFC030EC1B79D938006ECF9F /* welcome1.PNG */,
+				EFC030EB1B79D938006ECF9F /* welcome2.PNG */,
+				EFC030EE1B79D938006ECF9F /* welcome3.PNG */,
+				EFC030ED1B79D938006ECF9F /* welcome4.PNG */,
 				EFC030CF1B79D7B4006ECF9F /* Images.xcassets */,
-				EFC030D11B79D7B4006ECF9F /* LaunchScreen.xib */,
 				EFC030C61B79D7B4006ECF9F /* welcome.xcdatamodeld */,
 				EFC030BF1B79D7B4006ECF9F /* Supporting Files */,
 			);
@@ -202,9 +208,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFC030CE1B79D7B4006ECF9F /* Main.storyboard in Resources */,
-				EFC030D31B79D7B4006ECF9F /* LaunchScreen.xib in Resources */,
 				EFC030D01B79D7B4006ECF9F /* Images.xcassets in Resources */,
+				EFC030EF1B79D938006ECF9F /* welcome2.PNG in Resources */,
+				EFC030F01B79D938006ECF9F /* welcome1.PNG in Resources */,
+				EFC030F11B79D938006ECF9F /* welcome4.PNG in Resources */,
+				EFC030F21B79D938006ECF9F /* welcome3.PNG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +232,7 @@
 			files = (
 				EFC030C51B79D7B4006ECF9F /* AppDelegate.m in Sources */,
 				EFC030C21B79D7B4006ECF9F /* main.m in Sources */,
-				EFC030CB1B79D7B4006ECF9F /* ViewController.m in Sources */,
+				EFC030EA1B79D822006ECF9F /* ViewController.m in Sources */,
 				EFC030C81B79D7B4006ECF9F /* welcome.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,25 +254,6 @@
 			targetProxy = EFC030D91B79D7B4006ECF9F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		EFC030CC1B79D7B4006ECF9F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EFC030CD1B79D7B4006ECF9F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EFC030D11B79D7B4006ECF9F /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EFC030D21B79D7B4006ECF9F /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EFC030E01B79D7B4006ECF9F /* Debug */ = {
@@ -352,8 +341,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = welcome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.3;
 			};
 			name = Debug;
 		};
@@ -362,8 +353,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = welcome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.3;
 			};
 			name = Release;
 		};
@@ -380,6 +373,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = welcomeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/welcome.app/welcome";
@@ -395,6 +389,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = welcomeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/welcome.app/welcome";
@@ -420,6 +415,7 @@
 				EFC030E41B79D7B4006ECF9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFC030E51B79D7B4006ECF9F /* Build configuration list for PBXNativeTarget "welcomeTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +424,7 @@
 				EFC030E71B79D7B4006ECF9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
